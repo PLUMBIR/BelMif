@@ -1,0 +1,9 @@
+.card-hover {
+    min-height: 523px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}

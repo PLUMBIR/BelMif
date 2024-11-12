@@ -1,0 +1,7 @@
+<div class="container pt-2">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @for (itemCard of cardsList; track itemCard) {
+            <app-mythology-card [card]="itemCard"></app-mythology-card>
+        }
+    </div>
+</div>
